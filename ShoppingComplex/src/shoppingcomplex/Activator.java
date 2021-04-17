@@ -6,7 +6,7 @@ import org.osgi.framework.BundleContext;
 public class Activator implements BundleActivator {
 
 	private static BundleContext context;
-	String a;
+	
 
 	static BundleContext getContext() {
 		return context;
